@@ -1,0 +1,19 @@
+{
+  "name": "let-me-know-ts-definitions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meidan-zemer/let-me-know-ts-definitions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meidan-zemer/let-me-know-ts-definitions/issues"
+  },
+  "homepage": "https://github.com/meidan-zemer/let-me-know-ts-definitions#readme"
+}
