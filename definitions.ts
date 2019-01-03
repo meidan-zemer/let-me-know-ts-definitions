@@ -1,8 +1,8 @@
 export type contactPoint = Readonly<{
-    id: string;
+    userId: string,
+    cpId : string;
     name: string;
     description: string;
-    imagePath: string;
     createDate: number;
     modifyData: number;
 }>;
