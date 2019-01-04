@@ -4,5 +4,5 @@ export type contactPoint = Readonly<{
     name: string;
     description: string;
     createDate: number;
-    modifyData: number;
+    modifyDate: number;
 }>;
