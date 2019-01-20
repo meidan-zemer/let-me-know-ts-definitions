@@ -17,8 +17,7 @@ export type message = Readonly<{
 
 export type discussion = Readonly<{
     discussionId: string;
-    creatorAlias: string;
+    connectorId: string;
     createdDate: number;
     title: string | undefined;
-    nextPageToken: string | undefined
 }>;
