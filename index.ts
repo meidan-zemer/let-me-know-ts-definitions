@@ -1,12 +1,12 @@
-export type contactPoint = {
-    cpId : Readonly<string>;
-    userId: Readonly<string>;
-    ownerAlias:string;
+export type contactPoint = Readonly<{
+    cpId : string;
+    userId: string;
+    ownerAlias: string;
     name: string;
     description: string;
-    createdDate: Readonly<number>;
+    createdDate: number;
     modifiedDate: number;
-};
+}>;
 
 
 export type message = Readonly<{
