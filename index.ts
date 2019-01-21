@@ -3,8 +3,8 @@ export type contactPoint = {
     userId: Readonly<string>;
     name: string;
     description: string;
-    createDate: Readonly<number>;
-    modifyDate: number;
+    createdDate: Readonly<number>;
+    modifiedDate: number;
 };
 
 
@@ -16,8 +16,9 @@ export type message = Readonly<{
 
 
 export type discussion = Readonly<{
-    discussionId: string;
     connectorId: string;
+    connectorAlias:string;
     createdDate: number;
-    title: string | undefined;
+    modifiedDate: number;
+    title: string;
 }>;
