@@ -1,6 +1,7 @@
 export type contactPoint = {
     cpId : Readonly<string>;
     userId: Readonly<string>;
+    ownerAlias:string;
     name: string;
     description: string;
     createdDate: Readonly<number>;
