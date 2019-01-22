@@ -1,22 +1,22 @@
-export type contactPoint = Readonly<{
+export type contactPointType = Readonly<{
     cpId : string;
     userId: string;
     ownerAlias: string;
     name: string;
     description: string;
-    createdDate: number;
+    createdDate: number ;
     modifiedDate: number;
 }>;
 
 
-export type message = Readonly<{
+export type messageType = Readonly<{
     createDate: number;
     from: string;
     content: string;
 }>;
 
 
-export type discussion = Readonly<{
+export type discussionType = Readonly<{
     connectorId: string;
     connectorAlias:string;
     createdDate: number;
